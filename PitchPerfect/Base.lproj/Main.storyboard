@@ -36,6 +36,9 @@
                                 <rect key="frame" x="132" y="406" width="111" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Stop Recording"/>
+                                <connections>
+                                    <action selector="stopRecording:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1yG-fC-Xdo"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tap to Record" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UCx-EM-Qj2">
                                 <rect key="frame" x="132" y="365" width="111" height="21"/>
@@ -51,6 +54,9 @@
                             <constraint firstItem="cTy-B8-J4b" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="kM5-Bb-kib"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="recordingLabel" destination="UCx-EM-Qj2" id="NIm-pn-eHU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
