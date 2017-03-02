@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5CE86E651E68B57E00962DDE /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE86E641E68B57E00962DDE /* PlaySoundsViewController.swift */; };
 		5CFF112A1E67570C0099E8A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFF11291E67570C0099E8A6 /* AppDelegate.swift */; };
 		5CFF112C1E67570C0099E8A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFF112B1E67570C0099E8A6 /* ViewController.swift */; };
 		5CFF112F1E67570C0099E8A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CFF112D1E67570C0099E8A6 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5CE86E641E68B57E00962DDE /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
 		5CFF11261E67570C0099E8A6 /* PitchPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PitchPerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CFF11291E67570C0099E8A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5CFF112B1E67570C0099E8A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				5CFF11301E67570C0099E8A6 /* Assets.xcassets */,
 				5CFF11321E67570C0099E8A6 /* LaunchScreen.storyboard */,
 				5CFF11351E67570C0099E8A6 /* Info.plist */,
+				5CE86E641E68B57E00962DDE /* PlaySoundsViewController.swift */,
 			);
 			path = PitchPerfect;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CFF112C1E67570C0099E8A6 /* ViewController.swift in Sources */,
+				5CE86E651E68B57E00962DDE /* PlaySoundsViewController.swift in Sources */,
 				5CFF112A1E67570C0099E8A6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +303,7 @@
 				5CFF113A1E67570C0099E8A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
